@@ -55,6 +55,10 @@ width: 60vw;
     display: none;
 }
 
+.opcoes{
+    display: none;
+}
+
 @media screen and (min-width:1024px) {
 
     .conteiner__titulo{
