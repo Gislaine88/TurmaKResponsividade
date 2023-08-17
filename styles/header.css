@@ -60,6 +60,9 @@ width: 60vw;
     display: none;
 }
 
+.conteiner__texto{
+    display: none;
+}
 @media screen and (min-width:1024px) {
 
     .conteiner__titulo{
@@ -100,5 +103,28 @@ width: 60vw;
     .opcoes__botao{
         display: none;
     }
+
+    .conteiner__texto{
+        display: none;
+    }
     
+}
+
+@media screen and (min-width:1728px){
+    .conteiner__link{
+        display:flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+    .conteiner__texto{
+        display: block;
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+    .cabecalho{
+        padding: 0 2em;
+    }
 }
